@@ -2,11 +2,11 @@ This application displays Swedish power plants map. Power plants are added in ad
 
 Prerequisites:
 
-Python 3.9.7,
-Django 4.1.2,
-Django Rest Framework 3.14.0
-Pillow 7.0.0 (pip install Pillow==7.0.0)
-GeoDjango (PostGIS, PostgreSQL, Psycopg2, OSGeo4W, Gdal)
+- Python 3.9.7,
+- Django 4.1.2,
+- Django Rest Framework 3.14.0
+- Pillow 7.0.0 (pip install Pillow==7.0.0)
+- GeoDjango (PostGIS, PostgreSQL, Psycopg2, OSGeo4W, Gdal)
 After installing PostreSQL and creating geospatial database, it needs to be referenced in settings.py file (line 109).
 
 After creating geospatial database, the categories in Admin panel need to be created in following order:
